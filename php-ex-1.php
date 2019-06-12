@@ -26,8 +26,14 @@
 
     $nuovotesto = str_replace($proibita, $sostitutiva, $paroletesto);
 
-    // stampo a schermo l'array per verificare che abbia sostituito la parola proibita con la parola sostitutiva
-    var_dump($nuovotesto);
+    // // stampo a schermo l'array per verificare che abbia sostituito la parola proibita con la parola sostitutiva
+    // var_dump($nuovotesto);
+
+    // riconverto l'array in una stringa utlizzando la funzione implode
+    $nuovotestoparagrafo = implode(' ', $nuovotesto);
+
+    // stampo a schermo il nuovo paragrafo
+    echo $nuovotestoparagrafo;
 
      ?>
 
