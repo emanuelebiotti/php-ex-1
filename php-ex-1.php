@@ -35,7 +35,11 @@
     // stampo a schermo il nuovo paragrafo
     echo $nuovotestoparagrafo;
 
+    $conteggio = count($paroletesto);
+
      ?>
+
+     <h3>Questo paragrafo è lungo <?php echo $conteggio ?> parole </h3>
 
 
   </body>
