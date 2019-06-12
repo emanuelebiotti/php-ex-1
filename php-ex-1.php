@@ -35,10 +35,12 @@
     // stampo a schermo il nuovo paragrafo
     echo $nuovotestoparagrafo;
 
+    //conto le parole nell'array "paroletesto"
     $conteggio = count($paroletesto);
 
      ?>
-
+     
+     <!-- includo la variabile conteggio in un paragrafo esplicativo  -->
      <h3>Questo paragrafo è lungo <?php echo $conteggio ?> parole </h3>
 
 
